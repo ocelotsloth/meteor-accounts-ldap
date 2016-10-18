@@ -9,7 +9,7 @@ class UserQuery
   constructor: (username) -> 
     @ad = ActiveDirectory({
       url: Meteor.settings.ldap.url,
-      baseDN: Meteor.settings.ldap.baseDn,
+      baseDN: Meteor.settings.ldap.baseDn, 
       username: Meteor.settings.ldap.bindCn,
       password: Meteor.settings.ldap.bindPassword
       attributes: {
