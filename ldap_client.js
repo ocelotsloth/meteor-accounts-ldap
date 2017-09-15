@@ -1,3 +1,4 @@
+if(Meteor.isClient) {
 var firstAttempt = true;
 
 Template.ldapLogin.events({
@@ -46,4 +47,5 @@ initLogin = function(e, tpl) {
       return false
   });
   return result;
+}
 }
