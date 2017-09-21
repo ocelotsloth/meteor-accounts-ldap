@@ -1,6 +1,6 @@
 Package.describe({
   'summary': 'Meteor account login via LDAP using activedirectory.js',
-  'version': '0.1.5',
+  'version': '0.1.6',
   'git' : 'https://github.com/twa16/meteor-accounts-ldap',
   'name' : 'mgauto:meteor-accounts-ldap'
 });
